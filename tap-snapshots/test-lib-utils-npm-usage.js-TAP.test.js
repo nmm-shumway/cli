@@ -325,7 +325,8 @@ All commands:
                     npm dist-tag ls [<pkg>]
                     
                     Options:
-                    [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]] [-ws|--workspaces]
+                    [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+                    [-ws|--workspaces]
                     
                     alias: dist-tags
                     
@@ -632,7 +633,9 @@ All commands:
                     npm pack [[<@scope>/]<pkg>...]
                     
                     Options:
-                    [--dry-run] [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]] [-ws|--workspaces]
+                    [--dry-run]
+                    [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+                    [-ws|--workspaces]
                     
                     Run "npm help pack" for more info
 
